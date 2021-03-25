@@ -1,3 +1,17 @@
+:root {
+    --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --bg-color: #1779ba;
+}
+* {
+    box-sizing:border-box;
+    margin: 0 auto;
+}
+
+body, html {
+    margin: 0 auto;
+    height: 100%;
+    
+}
 
 .subnav-hero-section {
     text-align: center;
@@ -46,28 +60,41 @@
     transition: all 0.35s ease-in-out;
   }
   
-  .subnav-hero-subnav li a.is-active {
+.subnav-hero-subnav li a.is-active {
     background: rgba(254, 254, 254, 0.15);
   }
   
-  .subnav-hero-subnav li a:hover {
+.subnav-hero-subnav li a:hover {
     background: rgba(254, 254, 254, 0.15);
   }
 
-  .container {
-      margin: 0;
-      padding: 0;
+.hero {
+    background-color: lightgray;
+    height: 300px;
   }
 
-  .container, .row {
-      min-width: 100%;
-  }
+.container {
+    min-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    height: 300px;
+    overflow:hidden;
+  
+}
 
-  .col-sm-3, .col-sm-9 {
-      max-width: 100%;
-      border: 1px solid black;
-  }
- 
+.container h1 p {
+    background-color: var(--bg-color);
+}
+
+
+
+
+
+
+
+  
   
 
 
