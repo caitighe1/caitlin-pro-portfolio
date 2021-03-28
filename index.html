@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
+
 </head>
 <body>
     <header class="subnav-hero-section">
@@ -22,40 +23,104 @@
     <div class="hero">
     </div>
     
-    <div class="main"></div>
+    <div class="main">
     <div class="container" id="about-me">
-        <h1>About Me</h1>
-            <p>This is where I will write my about me</p>
-    </div>
+        <h2>about me</h2>
+        <img src="./images/profile-pic.jpg" class="profile-pic" alt="profilepic"/>
+            <p>A Columbia Coding Bootcamp student ready to take on the virtual world. <br> With years of experience on the ground floor, I am working to create elevation in life and design. 
+              <br>Although fairly new to this sector, I am eagerly learning the foundations of web development.
+              
+            </p>
 
-
-    <div class="container" id="projects">
-        <h1>My Projects</h1>
-            <p>This will contain my projects</p>
+           
     </div>
+  </div>
+
+<section>
+  <h2>My Projects</h2><br>
+    <div class="project-container" id="projects">
+      
+      <div class="card cell small-4" style="width: 300px;">
+        <div class="card-divider">
+           <p class="card-title"> Recipe 3 </p>
+        </div>
+        <img src="https://picsum.photos/id/1080/300/200" class="img-card">
+        <div class="card-section">
+            <h4>This is a card.</h4>
+            <a href="#" class="save-button">Save Recipe</a>
+        </div>
+    </div>
+    <div class="card cell small-4" style="width: 300px;">
+        <div class="card-divider">
+           <p class="card-title"> Recipe 3 </p>
+        </div>
+        <img src="https://picsum.photos/id/1080/300/200" class="img-card">
+        <div class="card-section">
+            <h4>This is a card.</h4>
+            <a href="#" class="save-button">Save Recipe</a>
+        </div>
+    </div>
+    <div class="card cell small-4" style="width: 300px;">
+        <div class="card-divider">
+           <p class="card-title"> Recipe 3 </p>
+        </div>
+        <img src="https://picsum.photos/id/1080/300/200" class="img-card">
+        <div class="card-section">
+            <h4>This is a card.</h4>
+            <a href="#" class="save-button">Save Recipe</a>
+        </div>
+    </div>
+  </section>
     
     
-    <div class="container" id="contact-form">
-        <h1>Contact Form</h1>
-            <p>This will be my contact form</p>
+    <div class="form-container" id="contact-form">
+       
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Name</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Email</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Message</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="send me a message">
+          </div>
+          <button type="submit" class="btn btn-primary">Let's Connect</button>
+            </label>
+          </div>
+          </div>
+          
+        </form>
     </div>
 </div>
 
 
-    <div class="footer"></footer>
-     
+<div class="social-footer">
+ <div class="social-footer-icons">
+        <a class="nav-link waves-effect waves-light">
+          <i class="fa fa-twitter fa-2x"></i>
+        </a>
       
+        <a class="nav-link waves-effect waves-light">
+          <i class="fa fa-facebook fa-2x"></i>
+        </a>
       
+        <a class="nav-link waves-effect waves-light">
+          <i class="fa fa-github fa-2x"></i>
+        </a>
       
+        <a class="nav-link waves-effect waves-light">
+          <i class="fa fa-linkedin fa-2x"></i>
+        </a>
       
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-    <script>
-  $(document).foundation();
-</script>
-    
+        
+  </div>
+</div>
+
 </body>
 </html>
