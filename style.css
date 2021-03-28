@@ -140,6 +140,7 @@ margin: 10px;
 align-content: center;
 background-color: lightgray;
 font-family: var(--font);
+border-radius: 25px;
 } 
 
 .card-title, h4 {
