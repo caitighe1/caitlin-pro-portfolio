@@ -117,6 +117,10 @@ p {
 
 }
 
+.whiptup {
+  height: 500px;
+}
+
 .project-container {
 display: flex;
 justify-content:center;
@@ -138,16 +142,9 @@ background-color: lightgray;
 font-family: var(--font);
 } 
 
-.card-img-top {
-height: 45%; 
-width: 100%; 
-overflow: hidden;
-position: relative;
-}
-
 .card-title, h4 {
   text-align: center;
-  color: var(--main-font-color);
+  color: var(--bg-color);
  }
 
 .form-container {
